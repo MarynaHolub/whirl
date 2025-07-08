@@ -198,3 +198,45 @@ body {
     list-style-type: none;
 
 }
+
+
+.benefits__list {
+    display: flex;
+    gap: 32px;
+}
+
+.benefits__item {
+    width: 355px;
+    padding: 32px 32px 40px;
+}
+
+
+.benefits__items_yellow {
+
+    background-color: #FAEA73;
+}
+
+.benefits__items_blue {
+
+    background-color: #CCEFF6;
+}
+
+.benefits__items_pink {
+
+    background-color: #F7CEDC;
+}
+
+.benefits__title {
+    font-family: Fraunces;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+
+}
+
+.benefits__text {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
