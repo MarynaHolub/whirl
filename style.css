@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: "Fraunces", serif;
+}
+
+/* Центрирующий контейнер */
+.center {
+    /* Ваш метод центрирования */
+    padding-left: calc(50% - 565px);
+    padding-right: calc(50% - 565px);
+}
+
+/* Шапка сайта */
+.header {
+    /* Стили для всей шапки */
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+.container_left {
+display: flex;
+align-items: center;
+gap: 24px;
+}
+.container_right {
+    display: flex;
+    align-items: center;
+    gap: 31px;
+}
+
+
+.header__container {
+    /* Флекс-контейнер для выравнивания элементов */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    /* Стили логотипа */
+}
+
+/* Навигационное меню */
+.header__nav {
+    /* Контейнер навигации */
+    
+
+
+}
+
+.nav__list {
+    /* Стили списка меню */
+    list-style-type: none;
+    /* Убираем маркеры */
+    display: flex;
+}
+
+.nav__item {
+    /* Стили пунктов меню */
+    padding: 12px;
+}
+
+.nav__link {
+    /* Стили ссылок меню */
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #33383F;
+
+
+}
+
+/* Блок авторизации */
+.header__login {
+    /* Стили ссылки "Sign in" */
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #0070A0;
+
+}
+
+.header__button {
+    /* Стили кнопки "Book a demo" в шапке */
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 6px 20px;
+    display: inline-block;
+    background-color: #0070A0;
+}
+
+/* Герой-секция */
+.hero {
+    /* Стили всей герой-секции */
+    padding-top: 70px;
+    padding-bottom: 92px;
+}
+
+.hero__container {
+    /* Контейнер контента */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero_content {
+    /* Стили контента */
+    
+}
+.hero__title {
+    /* Стили заголовка */
+    font-family: Fraunces;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 63px;
+    color: #1F1F1F;
+width: 485px;
+margin-bottom: 21px;
+
+}
+
+.hero__subtitle {
+    /* Стили подзаголовка */
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F1F1F;
+    width: 380px;
+    margin-bottom: 32px;
+
+
+}
+
+.hero__actions {
+    /* Контейнер для кнопок */
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    
+
+
+}
+
+/* Кнопки */
+.button {
+    /* Базовые стили всех кнопок */
+}
+
+.button_primary {
+    /* Стили основной кнопки */
+    padding: 8px 30px;
+    color: #FFFFFF;
+    background-color: #0070A0;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    display: inline-block;
+}
+
+.button_secondary {
+    /* Стили вторичной кнопки */
+    padding: 8px 30px;
+    color: #0070A0;
+    
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    
+}
+    

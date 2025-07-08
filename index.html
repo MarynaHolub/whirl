@@ -1,11 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <!-- Шапка -->
+    <header class="header">
+        <div class="header__container center">
+            <div class="container_left">
+                <!-- Логотип -->
+                <div class="header__logo">
+                    <a href="index.html"><img src="./img/logo.svg" alt="Whirl logo"></a>
+                </div>
+                <!-- Навигация с списком -->
+                <nav class="header__nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#features" class="nav__link">Features</a></li>
+                        <li class="nav__item"><a href="#pricing" class="nav__link">Pricing</a></li>
+                        <li class="nav__item"><a href="#integrations" class="nav__link">Integrations</a></li>
+                        <li class="nav__item"><a href="#learn" class="nav__link">Learn</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Кнопка входа -->
+            <div class="container_right">
+                <a href="#signin" class="header__login">Sign in</a>
+                <a href="#signin" class="header__button">Book a demo</a>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Герой-секция -->
+    <section class="hero">
+        <div class="hero__container center"> <!-- Добавлен класс center -->
+            <div class="hero_content">
+                <h1 class="hero__title">Your everyday tasks, automated.</h1>
+                <p class="hero__subtitle">Which lists you design and streamline your everyday tasks and workflows in
+                    just a
+                    few clicks.</p>
+                <div class="hero__actions">
+                    <a href="#demo" class="hero__button button button_primary">Book a demo</a>
+                    <a href="#learnmore" class="hero__button button button_secondary">Learn more<svg width="14"
+                            height="21" viewBox="0 0 14 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.34314 2.1001L10.6863 10.8604L2.34314 19.6207" stroke="#006B99"
+                                stroke-width="1.6" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="hero__image">
+                <img src="./img/planung.png" alt="Planung">
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
